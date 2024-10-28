@@ -1,0 +1,43 @@
+p, hr_manager, employee, GET, name
+p, hr_manager, employee, GET, position
+p, hr_manager, employee, GET, status
+p, hr_manager, employee, POST, name
+p, hr_manager, employee, POST, position
+p, hr_manager, employee, POST, status
+
+p, hr_employee, employee, GET, name
+p, hr_employee, employee, GET, position
+p, hr_employee, employee, POST, status
+
+
+
+
+
+
+# SaleManager permissions
+p, salesmanager, Items, POST, name
+p, salesmanager, Items, POST, price
+p, salesmanager, Items, POST, tax
+
+p, salesmanager, Items, GET, name
+p, salesmanager, Items, GET, price
+p, salesmanager, Items, GET, tax
+p, salesmanager, Items, GET, created
+p, salesmanager, Items, GET, updated
+
+
+p, salesmanager, Items, PUT, name
+p, salesmanager, Items, PUT, price
+p, salesmanager, Items, PUT, tax
+p, salesmanager, Items, PUT, created
+p, salesmanager, Items, PUT, updated
+
+
+p, sales_emp, Items, PUT, name
+p, sales_emp, Items, PUT, price
+p, sales_emp, Items, PUT, updated
+
+# Customer permissions
+p, Customer, Items, GET, name
+p, Customer, Items, GET, price
+p, Customer, Items, GET, tax
